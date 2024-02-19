@@ -1,3 +1,7 @@
+import { colorsSetting } from "./_colorSetting";
+
+colorsSetting()
+
 export const elapsedTime = async func => {
   console.log('Start!'.warn);
   const startTime = new Date();
